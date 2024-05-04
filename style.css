@@ -33,7 +33,7 @@ body{
     height: 26px;
 }
 svg:hover > *{
-    fill: #000;
+    fill: #0bdfaa;
 }
 .link-list{
     position: absolute;
@@ -51,7 +51,7 @@ svg:hover > *{
     padding: 10px 20px;
 }
 .prj-div img{
-    width: 300px;
+    width: 200px;
     border: 1px solid #000;
 }
 .dependency-div{
@@ -61,7 +61,10 @@ svg:hover > *{
     padding-left: 10px;
 }
 .dependency-div h3{
-    color: rgb(94, 185, 34);
+    color: rgb(110, 168, 71);
+    font-family: "Anton", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .dependency-div a{
     margin-left: 10px;
@@ -75,14 +78,35 @@ svg:hover > *{
 #h-title{
     position: absolute;
     top: 200PX;
-    left: 220px;
+    left: 225px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .card-div{
-    width: 95vw;
+    width: 90vw;
     margin: auto;
     border-radius: 5px;
     border: 2px solid rgba(47, 47, 185, 0.678);
     padding-bottom: 20px;
+}
+.card-div:hover{
+    box-shadow: 2px 2px 15px rgba(47, 47, 185, 0.63);
+}
+.card-div p{
+    width: 95%;
+    margin: auto;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+.respon-div{
+    margin: 0 20px;
+    text-align: justify;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .card-div ul{
     margin-left: 10px;
