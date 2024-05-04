@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    z-index: -1;
+}
+.profile-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 110px;
+}
+.img-icon{
+    position: absolute;
+    top: 170px;
+    left: 230px;
+}
+.img-icon img{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
+.img-icon img:hover{
+    width: 26px;
+    height: 26px;
+}
+svg:hover > *{
+    fill: #000;
+}
+.link-list{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.link-list svg{
+    margin: 0 5px;
+}
+.prj-div{
+    width: 89%;
+    margin: auto;
+
+    display: flex;
+    padding: 10px 20px;
+}
+.prj-div img{
+    width: 300px;
+    border: 1px solid #000;
+}
+.dependency-div{
+    width: 300px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.dependency-div h3{
+    color: rgb(94, 185, 34);
+}
+.dependency-div a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.footer-div{
+
+    text-align: center;
+}
+#h-title{
+    position: absolute;
+    top: 200PX;
+    left: 220px;
+}
+.card-div{
+    width: 95vw;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid rgba(47, 47, 185, 0.678);
+    padding-bottom: 20px;
+}
+.card-div ul{
+    margin-left: 10px;
+}
+.card-div h2{
+    position: relative;
+    top: -25px;
+    width: 250px;
+    margin-left: 20px;
+    background-color: #fff;
+}
