@@ -71,10 +71,7 @@ svg:hover > *{
     text-decoration: none;
     color: #000;
 }
-.footer-div{
 
-    text-align: center;
-}
 #h-title{
     position: absolute;
     top: 200PX;
@@ -118,3 +115,31 @@ svg:hover > *{
     margin-left: 20px;
     background-color: #fff;
 }
+
+.footer-div{
+    text-align: center;
+    background-color: #000000b6;
+    color: #fff;
+    padding-top: 10px;
+}
+.svg-div{
+    text-align: center;
+    background-color: #000000b6;
+    padding: 20px 0;
+}
+.svg-div svg{
+    margin: 0 30px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #0000000c;
+}
+.svg-div svg:hover{
+   border-bottom: 3px solid #0bdfaa;
+}
+.cert-div{
+    margin-left: 40px;
+}
+.cert-svg{
+    display: flex;
+    margin-bottom: 10px;
+}
+
