@@ -142,4 +142,12 @@ svg:hover > *{
     display: flex;
     margin-bottom: 10px;
 }
+.box-styling{
+    
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #00000073;
+}
 
